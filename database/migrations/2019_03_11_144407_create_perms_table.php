@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateMajorsTable extends Migration
+class CreatePermsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateMajorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('majors', function (Blueprint $table) {
+        Schema::create('perms', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('code', 10);
             $table->string('name', 100);
-            $table->integer('order');
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ class CreateMajorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('majors');
+        Schema::dropIfExists('perms');
     }
 }

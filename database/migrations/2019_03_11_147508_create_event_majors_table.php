@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateMajorsTable extends Migration
+class CreateEventMajorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,14 @@ class CreateMajorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('majors', function (Blueprint $table) {
+        Schema::create('event_majors', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name', 100);
-            $table->integer('order');
+            $table->bigInteger('events_id')->unsigned();
+            $table->bigInteger('majors_id')->unsigned();
             $table->timestamps();
+            $table->foreign('events_id')->references('id')->on('events');
+            $table->foreign('majors_id')->references('id')->on('majors');
+
         });
     }
 
@@ -28,6 +31,6 @@ class CreateMajorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('majors');
+        Schema::dropIfExists('event_majors');
     }
 }
