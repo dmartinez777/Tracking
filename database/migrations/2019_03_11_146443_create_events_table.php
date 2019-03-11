@@ -19,7 +19,8 @@ class CreateEventsTable extends Migration
             $table->string('event_abv', 10);
             $table->float('min_gpa');
             $table->bigInteger('hr_id')->unsigned();
-            $table->timestamp('deadline');
+            $table->dateTime('deadline');
+            $table->dateTime('test_schedule');
             $table->timestamps();
             $table->foreign('hr_id')->references('id')->on('hr');
         });
