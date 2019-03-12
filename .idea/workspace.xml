@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f2ecd0fb-a31b-4e94-b5ba-ac4a5f8f38ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_11_146443_create_events_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_11_146443_create_events_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,6 +43,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="ats_db: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ats_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ats_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="events: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -53,71 +61,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="303">
+              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_146443_create_events_table.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="24" column="65" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="65" />
+            <state relative-caret-position="336">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_165600_create_degrees_table.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/cors.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="219">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+              <folding>
+                <element signature="e#40#55#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_165624_create_event_degrees_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_140133_create_roles_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_144407_create_perms_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_144456_create_role_perms_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_145212_create_hrs_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        <entry file="das://4e3d8ef4-6c33-4b48-8351-e745187d3d50/schema/ats_db/table/events">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -130,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FlierController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_11_140443_create_events_table.php" />
@@ -144,6 +127,10 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_03_11_146443_create_events_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_11_165600_create_degrees_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_11_165624_create_event_degrees_table.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/cors.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/EventController.php" />
       </list>
     </option>
   </component>
@@ -252,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,6 +268,13 @@
             <path>
               <item name="trackingSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="trackingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trackingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trackingSystem" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,7 +287,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +298,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -337,7 +331,8 @@
       <workItem from="1552285369269" duration="10000" />
       <workItem from="1552312931003" duration="3895000" />
       <workItem from="1552323071074" duration="152000" />
-      <workItem from="1552323342195" duration="204000" />
+      <workItem from="1552323342195" duration="418000" />
+      <workItem from="1552342325954" duration="4123000" />
     </task>
     <task id="LOCAL-00001" summary="Added FlierController">
       <created>1552084833133</created>
@@ -367,17 +362,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552316784941</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added model &amp; migration scripts for the following:&#10;- Degree&#10;- EventDegree&#10;Added column test_schedule for the events table.">
+      <created>1552323749937</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552323749938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9518000" />
+    <option name="totallyTimeSpent" value="13855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="92" y="44" width="1798" height="938" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49808428" visible="true" weight="0.2146145" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49808428" visible="true" weight="0.216916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5019157" side_tool="true" weight="0.27272728" />
@@ -398,7 +400,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.21288837" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.21288837" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +413,8 @@
     <MESSAGE value="Added FlierController" />
     <MESSAGE value="Deleted Fliers model, controllers, &amp; migration scripts&#10;Added name, order fields in majors table.&#10;Added the following models &amp; migration scripts.:&#10;- EventMajor&#10;- Events&#10;- Hr&#10;- Perm&#10;- Role&#10;- RolePerm" />
     <MESSAGE value="Added FlierController&#10;Added routing to get fliers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added FlierController&#10;Added routing to get fliers." />
+    <MESSAGE value="Added model &amp; migration scripts for the following:&#10;- Degree&#10;- EventDegree&#10;Added column test_schedule for the events table." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added model &amp; migration scripts for the following:&#10;- Degree&#10;- EventDegree&#10;Added column test_schedule for the events table." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4e3d8ef4-6c33-4b48-8351-e745187d3d50/console.sql">
@@ -453,66 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/4e3d8ef4-6c33-4b48-8351-e745187d3d50.SCHEMA:ats_db">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>4e3d8ef4-6c33-4b48-8351-e745187d3d50.SCHEMA:ats_db</OriginalElement>
-          <nodes>
-            <node x="506.0" y="879.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_auth_codes</node>
-            <node x="254.0" y="170.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.event_majors</node>
-            <node x="-6.0" y="1152.5">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.password_resets</node>
-            <node x="272.5" y="-30.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.majors</node>
-            <node x="735.5" y="861.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_refresh_tokens</node>
-            <node x="224.5" y="1141.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_personal_access_clients</node>
-            <node x="544.0" y="137.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.events</node>
-            <node x="1032.5" y="872.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.migrations</node>
-            <node x="539.5" y="504.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.hr</node>
-            <node x="272.5" y="370.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.perms</node>
-            <node x="472.5" y="1152.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.documentations</node>
-            <node x="266.0" y="846.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_access_tokens</node>
-            <node x="806.5" y="-5.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_clients</node>
-            <node x="-7.5" y="570.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.roles</node>
-            <node x="-29.5" y="857.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.users</node>
-            <node x="-24.5" y="370.0">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.role_perms</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.events" target="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.hr">
-              <point x="0.0" y="103.0" />
-              <point x="0.0" y="-136.0" />
-            </edge>
-            <edge source="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.event_majors" target="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.majors">
-              <point x="0.0" y="-70.0" />
-              <point x="0.0" y="70.0" />
-            </edge>
-            <edge source="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.role_perms" target="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.perms">
-              <point x="104.5" y="0.0" />
-              <point x="-87.5" y="0.0" />
-            </edge>
-            <edge source="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.event_majors" target="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.events">
-              <point x="106.0" y="0.0" />
-              <point x="-96.0" y="0.0" />
-            </edge>
-            <edge source="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.hr" target="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.roles">
-              <point x="-100.5" y="0.0" />
-              <point x="87.5" y="0.0" />
-            </edge>
-            <edge source="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.role_perms" target="4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.roles">
-              <point x="0.0" y="70.0" />
-              <point x="0.0" y="-70.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.4305555555555556" x="-20.0" y="409.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/EventMajor.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -526,10 +469,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
+    <entry file="uml://DATABASE/4e3d8ef4-6c33-4b48-8351-e745187d3d50.SCHEMA:ats_db">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>4e3d8ef4-6c33-4b48-8351-e745187d3d50.SCHEMA:ats_db</OriginalElement>
+          <nodes>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_auth_codes</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.event_majors</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.password_resets</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.majors</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_refresh_tokens</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_personal_access_clients</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.events</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.migrations</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.hr</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_access_tokens</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.degrees</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.documentations</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.event_degrees</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.roles</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_clients</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.perms</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.users</node>
+            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.role_perms</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.3698732289336316" x="691.0" y="709.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_165600_create_degrees_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="476">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -554,10 +534,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_145212_create_hrs_table.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_165624_create_event_degrees_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        <state relative-caret-position="191">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -568,17 +548,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_165600_create_degrees_table.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_145212_create_hrs_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="443">
+          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_165624_create_event_degrees_table.php">
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+        <state relative-caret-position="-313" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/cors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e3d8ef4-6c33-4b48-8351-e745187d3d50/schema/ats_db/table/events">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
