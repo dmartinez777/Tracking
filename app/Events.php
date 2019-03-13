@@ -12,4 +12,9 @@ class Events extends Model
         return $this->belongsTo('App\Hr');
     }
 
+    public function majors()
+    {
+        return $this->belongsToMany('App\Majors');
+    }
+
 }
