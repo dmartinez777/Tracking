@@ -9,7 +9,7 @@ class Events extends Model
 
     public function hr()
     {
-        return $this->belongsTo('Hr');
+        return $this->belongsTo('App\Hr');
     }
 
 }

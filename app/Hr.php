@@ -9,7 +9,7 @@ class Hr extends Model
 
     public function events()
     {
-        return $this->hasMany('Events');
+        return $this->hasMany('App\Events');
     }
 
 }
