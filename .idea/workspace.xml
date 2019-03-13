@@ -1,119 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2ecd0fb-a31b-4e94-b5ba-ac4a5f8f38ec" name="Default Changelist" comment="Added model relationship details for the following:&#10;- Events&#10;- Hr">
+    <list default="true" id="1a2c2eee-6a56-4bf9-97c2-54e6aab44d59" name="Default Changelist" comment="Merge remote-tracking branch 'remotes/origin/master' into crud-events&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/composerJson.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trackingSystem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ats_db@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="trackingSystem" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/cors.php">
-          <provider selected="true" editor-type-id="text-editor">
-
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventController.php">
-          <provider selected="true" editor-type-id="text-editor">
-
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-              <folding>
-                <element signature="e#40#55#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FlierController.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_140443_create_events_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_140212_create_hrs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_04_022235_create_majors_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_143508_create_event_majors_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_140133_create_roles_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_144407_create_perms_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_144456_create_role_perms_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_145212_create_hrs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_146443_create_events_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_165600_create_degrees_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_11_165624_create_event_degrees_table.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/cors.php" />
-        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/EventController.php" />
-        <option value="$PROJECT_DIR$/app/Hr.php" />
-        <option value="$PROJECT_DIR$/app/Events.php" />
-        <option value="$PROJECT_DIR$/app/Majors.php" />
-      </list>
-    </option>
-  </component>
-  <component name="PhpServers">
-    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -208,63 +119,35 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
     </include_path>
   </component>
-
+  <component name="ProjectFrameBounds">
+    <option name="x" value="108" />
+    <option name="y" value="21" />
     <option name="width" value="1798" />
     <option name="height" value="938" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="models" type="b2602c69:ProjectViewProjectNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="models" type="b2602c69:ProjectViewProjectNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="models" type="b2602c69:ProjectViewProjectNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="models" type="b2602c69:ProjectViewProjectNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="models" type="b2602c69:ProjectViewProjectNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="trackingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trackingSystem" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,275 +161,59 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2ecd0fb-a31b-4e94-b5ba-ac4a5f8f38ec" name="Default Changelist" comment="" />
-      <created>1552080370899</created>
+      <changelist id="1a2c2eee-6a56-4bf9-97c2-54e6aab44d59" name="Default Changelist" comment="" />
+      <created>1552502872388</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552080370899</updated>
-      <workItem from="1552080372078" duration="128000" />
-      <workItem from="1552080521112" duration="3488000" />
-      <workItem from="1552086945293" duration="497000" />
-      <workItem from="1552137160550" duration="989000" />
-      <workItem from="1552194154449" duration="36000" />
-      <workItem from="1552199130983" duration="119000" />
-      <workItem from="1552285369269" duration="10000" />
-      <workItem from="1552312931003" duration="3895000" />
-      <workItem from="1552323071074" duration="152000" />
-      <workItem from="1552323342195" duration="418000" />
-
+      <updated>1552502872388</updated>
+      <workItem from="1552502875382" duration="285000" />
     </task>
-    <task id="LOCAL-00001" summary="Added FlierController">
-      <created>1552084833133</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1552084833133</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added FlierController&#10;Added routing to get fliers.">
-      <created>1552084862410</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1552084862410</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Deleted Fliers model, controllers, &amp; migration scripts&#10;Added name, order fields in majors table.&#10;Added the following models &amp; migration scripts.:&#10;- EventMajor&#10;- Events&#10;- Hr&#10;- Perm&#10;- Role&#10;- RolePerm">
-      <created>1552316349270</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1552316349270</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added FlierController&#10;Added routing to get fliers.">
-      <created>1552316784941</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1552316784941</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added model &amp; migration scripts for the following:&#10;- Degree&#10;- EventDegree&#10;Added column test_schedule for the events table.">
-      <created>1552323749937</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1552323749938</updated>
-    </task>
-
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="285000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="108" y="21" width="1798" height="938" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24971232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" sideWeight="0.5019157" side_tool="true" weight="0.27272728" />
-      <window_info anchor="bottom" id="Messages" weight="0.329235" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32991013" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329235" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329235" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50057536" side_tool="true" weight="0.28112966" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49942464" visible="true" weight="0.28005466" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32991013" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.21244635" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
-    <MESSAGE value="Added FlierController" />
-    <MESSAGE value="Deleted Fliers model, controllers, &amp; migration scripts&#10;Added name, order fields in majors table.&#10;Added the following models &amp; migration scripts.:&#10;- EventMajor&#10;- Events&#10;- Hr&#10;- Perm&#10;- Role&#10;- RolePerm" />
-    <MESSAGE value="Added FlierController&#10;Added routing to get fliers." />
-    <MESSAGE value="Added model &amp; migration scripts for the following:&#10;- Degree&#10;- EventDegree&#10;Added column test_schedule for the events table." />
-
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4e3d8ef4-6c33-4b48-8351-e745187d3d50/console.sql" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_04_023245_create_fliers_table.php" />
-    <entry file="file://$PROJECT_DIR$/package.json" />
-    <entry file="das://4e3d8ef4-6c33-4b48-8351-e745187d3d50/schema/ats_db/table/fliers" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FliersController.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_04_021308_create_documentations_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_04_022235_create_majors_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_147508_create_event_majors_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/EventMajor.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/4e3d8ef4-6c33-4b48-8351-e745187d3d50.SCHEMA:ats_db">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>4e3d8ef4-6c33-4b48-8351-e745187d3d50.SCHEMA:ats_db</OriginalElement>
-          <nodes>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_auth_codes</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.event_majors</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.password_resets</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.majors</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_refresh_tokens</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_personal_access_clients</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.events</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.migrations</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.hr</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_access_tokens</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.degrees</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.documentations</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.event_degrees</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.roles</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.oauth_clients</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.perms</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.users</node>
-            <node x="" y="">4e3d8ef4-6c33-4b48-8351-e745187d3d50.TABLE:ats_db.role_perms</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.3698732289336316" x="691.0" y="709.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_165600_create_degrees_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_140133_create_roles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_144407_create_perms_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_144456_create_role_perms_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_165624_create_event_degrees_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_146443_create_events_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_145212_create_hrs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-313" />
-      </provider>
-    </entry>
-
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/cors.php">
-      <provider selected="true" editor-type-id="text-editor">
-
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventController.php">
-      <provider selected="true" editor-type-id="text-editor">
-
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Hr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Majors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <MESSAGE value="Merge remote-tracking branch 'remotes/origin/master' into crud-events&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'remotes/origin/master' into crud-events&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
 </project>
