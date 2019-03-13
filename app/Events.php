@@ -17,4 +17,8 @@ class Events extends Model
         return $this->belongsToMany('App\Majors');
     }
 
+    public function degrees()
+    {
+
+    }
 }
