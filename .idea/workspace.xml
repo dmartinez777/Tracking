@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2ecd0fb-a31b-4e94-b5ba-ac4a5f8f38ec" name="Default Changelist" comment="Added model relationship details for the following:&#10;- Events&#10;- Hr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Events.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Majors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Majors.php" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,35 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Hr.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Events.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Majors.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+
             </state>
           </provider>
         </entry>
@@ -79,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+
               <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
             </state>
           </provider>
@@ -88,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Middleware/cors.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+
               <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
@@ -97,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+
               <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
@@ -238,9 +208,7 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="92" />
-    <option name="y" value="44" />
+
     <option name="width" value="1798" />
     <option name="height" value="938" />
   </component>
@@ -330,8 +298,7 @@
       <workItem from="1552312931003" duration="3895000" />
       <workItem from="1552323071074" duration="152000" />
       <workItem from="1552323342195" duration="418000" />
-      <workItem from="1552342325954" duration="4123000" />
-      <workItem from="1552495772561" duration="2124000" />
+
     </task>
     <task id="LOCAL-00001" summary="Added FlierController">
       <created>1552084833133</created>
@@ -368,40 +335,7 @@
       <option name="project" value="LOCAL" />
       <updated>1552323749938</updated>
     </task>
-    <task id="LOCAL-00006" summary="Added model relationship details for the following:&#10;- Events&#10;- Hr">
-      <created>1552496367430</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1552496367430</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added model relationship details for the following:&#10;- Events&#10;- Hr">
-      <created>1552499588740</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1552499588740</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15979000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49808428" visible="true" weight="0.21959943" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5019157" side_tool="true" weight="0.27272728" />
@@ -437,8 +371,7 @@
     <MESSAGE value="Deleted Fliers model, controllers, &amp; migration scripts&#10;Added name, order fields in majors table.&#10;Added the following models &amp; migration scripts.:&#10;- EventMajor&#10;- Events&#10;- Hr&#10;- Perm&#10;- Role&#10;- RolePerm" />
     <MESSAGE value="Added FlierController&#10;Added routing to get fliers." />
     <MESSAGE value="Added model &amp; migration scripts for the following:&#10;- Degree&#10;- EventDegree&#10;Added column test_schedule for the events table." />
-    <MESSAGE value="Added model relationship details for the following:&#10;- Events&#10;- Hr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added model relationship details for the following:&#10;- Events&#10;- Hr" />
+
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4e3d8ef4-6c33-4b48-8351-e745187d3d50/console.sql" />
@@ -566,31 +499,27 @@
         <state relative-caret-position="-313" />
       </provider>
     </entry>
-    <entry file="das://4e3d8ef4-6c33-4b48-8351-e745187d3d50/schema/ats_db/table/events" />
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+
           <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/cors.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
             <element signature="e#40#55#0#PHP" expanded="true" />
