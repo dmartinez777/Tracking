@@ -13,7 +13,7 @@ class Hr extends Model
     }
 
     public function roles() {
-        return $this->belongsTo('App\Role');
+        return $this->belongsTo('App\Roles');
     }
 
 }
