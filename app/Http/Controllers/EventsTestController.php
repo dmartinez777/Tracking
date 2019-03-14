@@ -11,10 +11,10 @@ class EventsTestController extends Controller  {
      * Get all events in the database.
      * @return Events[]|\Illuminate\Database\Eloquent\Collection
      **/
-    public function all() {
+    public function index() {
 
         $events = Events::all()->toArray();
-        return view('testEvents', compact('events'));
+        return view('eventsTest', compact('events'));
 
     }
 
