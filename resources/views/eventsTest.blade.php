@@ -8,14 +8,22 @@
 <body>
 
     <table>
-    @foreach($posts as $post)
         <tr>
-            <td> {{post['school_name']}} </td>
-            <td> {{post['event_abv']}} </td>
-            <td> {{post['min_gpa']}} </td>
-            <td> {{post['hr_id']}} </td>
-            <td> {{post['deadline']}} </td>
-            <td> {{post['test_schedule']}} </td>
+            <td>School name</td>
+            <td>Event Abrv</td>
+            <td>Min GPA</td>
+            <td>HR ID</td>
+            <td>Deadline</td>
+            <td>Test Date</td>
+        </tr>
+    @foreach($events as $event)
+        <tr>
+            <td> {{$event['school_name']}} </td>
+            <td> {{$event['event_abv']}} </td>
+            <td> {{$event['min_gpa']}} </td>
+            <td> {{$event['hr_id']}} </td>
+            <td> {{$event['deadline']}} </td>
+            <td> {{$event['test_schedule']}} </td>
         </tr>
     @endforeach
     </table>
