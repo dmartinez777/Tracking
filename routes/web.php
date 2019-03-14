@@ -11,6 +11,11 @@
 |
 */
 
+// Controller-name@method-name
+Route::get('/eventsTest', 'EventsTestController@index'); // localhost:8000/
+
+
+//real routing
 Route::get('/', function () {
     return view('welcome');
 });
