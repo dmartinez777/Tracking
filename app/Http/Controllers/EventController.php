@@ -7,13 +7,12 @@ use Illuminate\Http\Request;
 
 class EventController extends Controller  {
 
-
     /**
      * Get all events in the database.
      * @return Events[]|\Illuminate\Database\Eloquent\Collection
      */
     public function all() {
-        return Events::all();
+        return Events::with('majors', 'degrees')->get();
     }
 
     /**
