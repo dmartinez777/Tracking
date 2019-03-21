@@ -44,7 +44,7 @@
                             <td> {{$event['hr_id']}} </td>
                             <td> {{ \Carbon\Carbon::parse($event['deadline'])->format('m/d/Y') }} </td>
                             <td> {{ \Carbon\Carbon::parse($event['test_schedule'])->format('m/d/Y') }} </td>
-                            <td> <a href="/e/{{$event['id']}}" role="button" class="btn btn-outline-primary btn-sm">Details</a> </td>
+                            <td> <a href="/test/e/{{$event['id']}}" role="button" class="btn btn-outline-primary btn-sm">Details</a> </td>
                         </tr>
                         @endforeach
                     </tbody>

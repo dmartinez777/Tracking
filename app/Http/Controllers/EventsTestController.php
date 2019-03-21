@@ -30,16 +30,5 @@ class EventsTestController extends Controller  {
 
     }
 
-    public function eventMajors()
-    {
-
-        $majors = Majors::all();
-        if (!$majors->isEmpty())
-        {
-
-        }
-
-    }
-
 
 }

@@ -25,15 +25,19 @@
 
                 <br><br><br>
 
+                <div class="border border-dark">
+                    <h4>POSITION:
+                        @foreach ($eventDetails['degrees'] as $degree)
+                            {{ $degree['name'] }}
+                        @endforeach
+
+                        Technical Staff
+                    </h4>
+                </div>
+
+                <br>
+
                 <h4>SCHOOL: {{$eventDetails['school_name']}}</h4>
-                <h4>POSITION:
-                    @foreach ($eventDetails['degrees'] as $degree)
-                        {{ $degree['name'] }}
-                    @endforeach
-
-                    Technical Staff
-
-                </h4>
                 <h4>LOCATION: Lampung, Sumatra, Indonesia</h4>
 
                 <br><br>
@@ -49,16 +53,7 @@
                                     @forelse ($eventDetails['majors'] as $major)
                                         <li>{{ $major->name }}</li>
                                     @empty
-                                        <li>test 1</li>
-                                        <li>test 2</li>
-                                        <li>test 3</li>
-                                        <li>test 4</li>
-                                        <li>test 5</li>
-                                        <li>test 6</li>
-                                        <li>test 7</li>
-                                        <li>test 8</li>
-                                        <li>test 9</li>
-                                        <li>test 10</li>
+                                        <li>No Major Requirement</li>
                                     @endforelse
 
                                 </ul>
@@ -78,16 +73,17 @@
                             <li>Legalized photocopy of your degree</li>
                             <li>Legalized photocopy of your transcripts</li>
                         </ol>
-                        <br><br><br><br>
                         *Note:<br>
-                        bring with you to the written test
+                        bring these with you to the written test
                     </div>
                 </div>
 
                 <br>
 
-                <h4>APPLICATION DEADLINE: {{ \Carbon\Carbon::parse($eventDetails['deadline'])->format('m/d/Y') }}</h4>
-                <h4>TEST SCHEDULE: {{ \Carbon\Carbon::parse($eventDetails['test_schedule'])->format('m/d/Y') }} </h4>
+                <div class="border border-dark">
+                    <h4>APPLICATION DEADLINE: {{ \Carbon\Carbon::parse($eventDetails['deadline'])->format('m/d/Y') }}</h4>
+                    <h4>TEST SCHEDULE: {{ \Carbon\Carbon::parse($eventDetails['test_schedule'])->format('m/d/Y') }} </h4>
+                </div>
 
                 <br><br>
 
