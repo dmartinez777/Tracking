@@ -16,7 +16,7 @@ class CreateEventsTable extends Migration
         Schema::create('events', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('school_name', 200);
-            $table->string('event_abv', 10);
+            $table->string('event_abv', 20);
             $table->float('min_gpa');
             $table->bigInteger('hr_id')->unsigned();
             $table->dateTime('deadline');

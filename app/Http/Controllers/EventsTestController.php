@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Events;
+use App\Degrees;
 use Illuminate\Http\Request;
 
 class EventsTestController extends Controller  {
@@ -17,5 +18,28 @@ class EventsTestController extends Controller  {
         return view('eventsTest', compact('events'));
 
     }
+
+    public function eventInfo($event_id) {
+
+        //get event details by $event_id
+        $eventDetails = Events::findOrFail($event_id);
+
+
+        //return page to view
+        return view('eventsTestDetails', compact('eventDetails'));
+
+    }
+
+    public function eventMajors()
+    {
+
+        $majors = Majors::all();
+        if (!$majors->isEmpty())
+        {
+
+        }
+
+    }
+
 
 }
