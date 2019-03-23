@@ -16,4 +16,9 @@ class Process extends Model
         return $this->hasMany('App\App', 'processes_id', 'id');
     }
 
+    public function processhistory()
+    {
+        return $this->hasMany('App\ProcessHistory', 'processes_id', 'id');
+    }
+
 }

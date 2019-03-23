@@ -16,6 +16,9 @@ class AppStatus extends Model
         return $this->hasMany('App\App', 'apps_statuses_id', 'id');
     }
 
-
+    public function appstatushistory()
+    {
+        return $this->hasMany('App\AppStatusHistory', 'app_statuses_id', 'id');
+    }
 
 }

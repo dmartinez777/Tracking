@@ -16,4 +16,14 @@ class Hr extends Model
         return $this->belongsTo('App\Roles');
     }
 
+    public function appstatushistory()
+    {
+        return $this->hasMany('App\AppStatusHistory', 'hr_id', 'id');
+    }
+
+    public function processhistory()
+    {
+        return $this->hasMany('App\ProcessHistory','hr_id', 'id')
+    }
+
 }

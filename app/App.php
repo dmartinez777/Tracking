@@ -25,4 +25,14 @@ class App extends Model
         return $this->belongsTo('App\AppStatus');
     }
 
+    public function appstatushistory()
+    {
+        return $this->hasMany('App\AppStatusHistory', 'apps_id', 'id');
+    }
+
+    public function processhistory()
+    {
+        return $this->hasMany('App\ProcessHistory','apps_id', 'id')
+    }
+
 }
