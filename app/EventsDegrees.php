@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class EventMajor extends Model
+class EventsDegrees extends Model
 {
     //
 }

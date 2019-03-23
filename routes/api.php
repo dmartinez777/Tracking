@@ -17,6 +17,19 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::group(['middleware' => ['auth:api', /* 'checkRoles' */]], function () {
+    Route::post('events/add', 'EventController@add')->middleware('cors');
+    Route::post('events/delete/:id', 'EventController@delete')->middleware('cors');
+});
 
-Route::post('events/add', 'EventController@add')->middleware('cors');
-Route::get('events/list', 'EventController@all');
+/**
+ * None Auth API Routes.
+ */
+Route::group(['middleware' => ['api']], function () {
+    Route::get('events/list', 'EventController@all'); //Move me once auth has been setup.
+    Route::post('login', 'api\ApiLoginController@login')->name('login');
+    Route::post('register', 'api\ApiRegisterController@register');
+
+});
+
+
