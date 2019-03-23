@@ -12,4 +12,8 @@ class Hr extends Model
         return $this->hasMany('App\Events');
     }
 
+    public function roles() {
+        return $this->belongsTo('App\Roles');
+    }
+
 }

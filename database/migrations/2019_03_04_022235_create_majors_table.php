@@ -16,7 +16,7 @@ class CreateMajorsTable extends Migration
         Schema::create('majors', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name', 100);
-            $table->integer('order');
+            $table->unsignedTinyInteger('order');
             $table->timestamps();
         });
     }

@@ -8,6 +8,6 @@ class Majors extends Model
 {
     public function events()
     {
-        return $this->belongsToMany('App\Events');
+        return $this->belongsToMany('App\Events', 'event_majors', 'majors_id', 'events_id');
     }
 }
