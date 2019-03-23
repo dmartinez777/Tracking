@@ -22,4 +22,9 @@ class Events extends Model
         return $this->belongsToMany('App\Degrees', 'events_degrees', 'events_id', 'degrees_id');
     }
 
+    public function app()
+    {
+        return $this->hasMany('App\App', 'events_id', 'id');
+    }
+
 }

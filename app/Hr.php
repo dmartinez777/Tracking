@@ -9,7 +9,7 @@ class Hr extends Model
 
     public function events()
     {
-        return $this->hasMany('App\Events');
+        return $this->hasMany('App\Events', 'hr_id', 'id');
     }
 
     public function roles() {
