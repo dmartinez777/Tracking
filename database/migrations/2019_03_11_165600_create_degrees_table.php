@@ -19,6 +19,7 @@ class CreateDegreesTable extends Migration
             $table->unsignedTinyInteger('order');
             $table->timestamps();
         });
+
     }
 
     /**

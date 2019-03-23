@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateEventDegreesTable extends Migration
+class CreateEventsDegreesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,13 @@ class CreateEventDegreesTable extends Migration
      */
     public function up()
     {
-        Schema::create('event_degrees', function (Blueprint $table) {
+        Schema::create('events_degrees', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigInteger('event_id')->unsigned();
-            $table->bigInteger('degree_id')->unsigned();
+            $table->bigInteger('events_id')->unsigned();
+            $table->bigInteger('degrees_id')->unsigned();
             $table->timestamps();
-            $table->foreign('event_id')->references('id')->on('events');
-            $table->foreign('degree_id')->references('id')->on('degrees');
+            $table->foreign('events_id')->references('id')->on('events');
+            $table->foreign('degrees_id')->references('id')->on('degrees');
         });
     }
 

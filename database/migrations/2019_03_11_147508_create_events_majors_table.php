@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateEventMajorsTable extends Migration
+class CreateEventsMajorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateEventMajorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('event_majors', function (Blueprint $table) {
+        Schema::create('events_majors', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->bigInteger('events_id')->unsigned();
             $table->bigInteger('majors_id')->unsigned();
