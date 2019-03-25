@@ -16,10 +16,10 @@ class CreateInterviewsTable extends Migration
         Schema::create('interviews', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name', 100);
-            $table->bigInteger('process_id')->unsigned();
+            $table->bigInteger('processes_id')->unsigned();
             $table->boolean('has_scorecard')->default(0);
-            $table->boolean('is_active')->default(0);
-            $table->foreign('process_id')->references('id')->on('process');
+            $table->boolean('is_active')->default(1);
+            $table->foreign('processes_id')->references('id')->on('processes');
             $table->timestamps();
         });
     }

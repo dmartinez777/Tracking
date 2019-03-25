@@ -17,9 +17,9 @@ class CreateProcessesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name', 20);
             $table->unsignedTinyInteger('order');
-            $table->boolean('has_test');
-            $table->boolean('has_interview');
-            $table->boolean('is_active');
+            $table->boolean('has_test')->default(0);
+            $table->boolean('has_interview')->default(0);
+            $table->boolean('is_active')->default(1);
             $table->timestamps();
         });
     }
