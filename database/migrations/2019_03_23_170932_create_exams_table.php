@@ -4,21 +4,23 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateInterviewsTable extends Migration
+class CreateExamsTable extends Migration
 {
     /**
      * Run the migrations.
      *
      * @return void
      */
-    public function up()
-    {
-        Schema::create('interviews', function (Blueprint $table) {
+    public function up() {
+
+        Schema::create('exams', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name', 100);
+            $table->string('name', 10);
+            $table->integer('max_score');
+            $table->integer('max_duration');
+            $table->integer('order');
             $table->bigInteger('process_id')->unsigned();
-            $table->boolean('has_scorecard')->default(0);
-            $table->boolean('is_active')->default(0);
+            $table->boolean('is_active');
             $table->foreign('process_id')->references('id')->on('process');
             $table->timestamps();
         });
@@ -29,8 +31,7 @@ class CreateInterviewsTable extends Migration
      *
      * @return void
      */
-    public function down()
-    {
-        Schema::dropIfExists('interviews');
+    public function down() {
+        Schema::dropIfExists('exams');
     }
 }
