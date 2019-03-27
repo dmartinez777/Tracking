@@ -23,7 +23,7 @@ class Hr extends Model
 
     public function processhistory()
     {
-        return $this->hasMany('App\ProcessHistory','hr_id', 'id')
+        return $this->hasMany('App\ProcessHistory','hr_id', 'id');
     }
 
 }
