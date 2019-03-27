@@ -33,4 +33,8 @@ class App extends Model
         return $this->hasMany('App\ProcessHistory','apps_id', 'id');
     }
 
+    public function skill() {
+        return $this->belongsToMany('App\Skill', 'apps_skills', 'apps_id', 'skills_id')->withPivot('levels_id');
+      }
+
 }
