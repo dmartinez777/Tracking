@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateExamScoresTable extends Migration
+class CreateExamsScoresTable extends Migration
 {
     /**
      * Run the migrations.
@@ -18,13 +18,13 @@ class CreateExamScoresTable extends Migration
             $table->bigInteger('apps_id')->unsigned();
             $table->bigInteger('exams_id')->unsigned();
             $table->bigInteger('hr_id')->unsigned();
-            $table->bigInteger('exams_status_id')->unsigned();
+            $table->bigInteger('exams_statuses_id')->unsigned();
             $table->integer('score')->unsigned();
             $table->text('note');
             $table->foreign('apps_id')->references('id')->on('apps');
             $table->foreign('exams_id')->references('id')->on('exams');
             $table->foreign('hr_id')->references('id')->on('hr');
-            $table->foreign('exams_status_id')->references('id')->on('exams_status');
+            $table->foreign('exams_statuses_id')->references('id')->on('exams_statuses');
             $table->timestamps();
         });
     }
