@@ -34,7 +34,9 @@ class App extends Model
     }
 
     public function skill() {
-        return $this->belongsToMany('App\Skill', 'apps_skills', 'apps_id', 'skills_id')->withPivot('levels_id');
+        return $this->belongsToMany('App\Skill', 'apps_skills', 'apps_id', 'skills_id')
+            ->withPivot('levels_id')
+            ->withTimestamps();
       }
 
     public function edu(){
@@ -43,6 +45,13 @@ class App extends Model
 
     public function training(){
         return $this->hasMany('App\Training', 'apps_id', 'id');
+    }
+
+    public function interviewscore()
+    {
+        return $this->belongsToMany('App\InterviewScore', 'apps_has_interview_scores', 'apps_id', 'interview_scores_id')
+            ->withPivot('interview_status_id', 'overall_score', 'note')
+            ->withTimestamps();
     }
 
 }
