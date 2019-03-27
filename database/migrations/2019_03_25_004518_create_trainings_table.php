@@ -15,12 +15,12 @@ class CreateTrainingsTable extends Migration
     {
         Schema::create('trainings', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigInteger('app_id')->unsigned();
+            $table->bigInteger('apps_id')->unsigned();
             $table->string('name', 50);
             $table->string('organizer', 50);
             $table->date('year_of_work');
             $table->boolean('cert');
-            $table->foreign('app_id')->references('id')->on('apps');
+            $table->foreign('apps_id')->references('id')->on('apps');
             $table->timestamps();
         });
     }

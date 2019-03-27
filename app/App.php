@@ -41,4 +41,8 @@ class App extends Model
         return $this->hasMany('App\Edu', 'apps_id', 'id');
     }
 
+    public function training(){
+        return $this->hasMany('App\Training', 'apps_id', 'id');
+    }
+
 }
