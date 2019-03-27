@@ -18,6 +18,7 @@ class CreateInterviewScoresTable extends Migration
             $table->bigInteger('hr_id')->unsigned();
             $table->bigInteger('score')->unsigned();
             $table->text('note');
+            $table->foreign('hr_id')->references('id')->on('hr');
             $table->timestamps();
         });
     }
