@@ -17,10 +17,13 @@ class CreateInterviewTakensTable extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('apps_id')->unsigned();
             $table->bigInteger('interview_id')->unsigned();
+            $table->bigInteger('interview_scores_id')->unsigned();
             $table->bigInteger('interview_status_id')->unsigned();
             $table->integer('overall_score')->unsigned();;
+            $table->text('note');
             $table->foreign('apps_id')->references('id')->on('apps');
             $table->foreign('interview_id')->references('id')->on('interviews');
+            $table->foreign('interview_scores_id')->references('id')->on('interview_scores');
             $table->foreign('interview_status_id')->references('id')->on('interview_status');
             $table->timestamps();
         });

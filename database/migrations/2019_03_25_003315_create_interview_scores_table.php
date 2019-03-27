@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateInterviewGradesTable extends Migration
+class CreateInterviewScoreTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,11 @@ class CreateInterviewGradesTable extends Migration
      */
     public function up()
     {
-        Schema::create('interview_grades', function (Blueprint $table) {
+        Schema::create('interview_scores', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->bigInteger('hr_id')->unsigned();
-            $table->bigInteger('interview_taken_id')->unsigned();
             $table->bigInteger('score')->unsigned();
-            $table->text('notes');
-            $table->foreign('interview_taken_id')->references('id')->on('interview_taken');
+            $table->text('note');
             $table->timestamps();
         });
     }
