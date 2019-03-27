@@ -6,5 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class interview extends Model
 {
-    //
+    protected $table = "interviews";
+    protected $fillable = array('name', 'processes_id', 'has_scorecard', 'is_active');
+
+
+
 }
