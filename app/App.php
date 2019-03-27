@@ -54,4 +54,8 @@ class App extends Model
             ->withTimestamps();
     }
 
+    public function examscore(){
+        return $this->hasMany('App\ExamScore', 'apps_id', 'id');
+    }
+
 }
