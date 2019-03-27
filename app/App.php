@@ -37,4 +37,8 @@ class App extends Model
         return $this->belongsToMany('App\Skill', 'apps_skills', 'apps_id', 'skills_id')->withPivot('levels_id');
       }
 
+    public function edu(){
+        return $this->hasMany('App\Edu', 'apps_id', 'id');
+    }
+
 }
