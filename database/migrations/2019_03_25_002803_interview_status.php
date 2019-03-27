@@ -15,6 +15,7 @@ class InterviewStatus extends Migration
         Schema::create('interview_status', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('status_name', 255);
+            $table->integer('order')->unsigned();
             $table->timestamps();
         });
     }

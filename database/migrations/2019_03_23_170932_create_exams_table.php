@@ -15,13 +15,13 @@ class CreateExamsTable extends Migration
 
         Schema::create('exams', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name', 10);
-            $table->integer('max_score');
-            $table->integer('max_duration');
-            $table->integer('order');
-            $table->bigInteger('process_id')->unsigned();
-            $table->boolean('is_active');
-            $table->foreign('process_id')->references('id')->on('process');
+            $table->string('name', 20);
+            $table->integer('max_score')->unsigned();
+            $table->integer('max_duration')->unsigned();
+            $table->integer('order')->unsigned();
+            $table->bigInteger('processes_id')->unsigned();
+            $table->boolean('is_active')->default(1);
+            $table->foreign('processes_id')->references('id')->on('processes');
             $table->timestamps();
         });
     }

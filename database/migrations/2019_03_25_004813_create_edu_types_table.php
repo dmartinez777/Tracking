@@ -16,7 +16,8 @@ class CreateEduTypesTable extends Migration
         Schema::create('edu_types', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name', 10);
-            $table->integer('level');
+            $table->integer('level')->unsigned();
+            $table->integer('order')->unsigned();
             $table->timestamps();
         });
     }

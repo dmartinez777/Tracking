@@ -15,8 +15,9 @@ class CreateInterviewGradesTable extends Migration
     {
         Schema::create('interview_grades', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->bigInteger('hr_id')->unsigned();
             $table->bigInteger('interview_taken_id')->unsigned();
-            $table->bigInteger('score');
+            $table->bigInteger('score')->unsigned();
             $table->text('notes');
             $table->foreign('interview_taken_id')->references('id')->on('interview_taken');
             $table->timestamps();
